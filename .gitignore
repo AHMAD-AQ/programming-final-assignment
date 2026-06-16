@@ -1,24 +1,73 @@
-# Compiled class file
+# =========================
+# Java compiled files
+# =========================
 *.class
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# =========================
+# Java package/build artifacts
+# =========================
 *.jar
 *.war
 *.nar
 *.ear
+
+# =========================
+# Build output folders
+# =========================
+bin/
+build/
+out/
+target/
+
+# =========================
+# Eclipse files
+# =========================
+.project
+.classpath
+.settings/
+
+# =========================
+# IntelliJ IDEA files
+# =========================
+.idea/
+*.iml
+
+# =========================
+# VS Code files
+# =========================
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# JVM crash logs
+# =========================
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Archive/compressed files
+# =========================
 *.zip
 *.tar.gz
 *.rar
+*.7z
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# =========================
+# OS junk files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# BlueJ files
+# =========================
+*.ctxt
+
+# =========================
+# Mobile Tools for Java
+# =========================
+.mtj.tmp/
